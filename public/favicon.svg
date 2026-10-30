@@ -1,0 +1,76 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  role="img"
+  aria-label="Crescent moon with stars"
+>
+  <defs>
+    <radialGradient id="moon" cx="0.15" cy="0.5" r="0.9">
+      <stop offset="0" stop-color="#FFFBE3" />
+      <stop offset="0.6" stop-color="#FFF1B8" />
+      <stop offset="1" stop-color="#E3CD8E" />
+    </radialGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7DA7D9" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#7DA7D9" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#2F4860" />
+  <circle cx="26" cy="34" r="30" fill="url(#halo)" />
+  <g transform="translate(3 3) rotate(-24 24 32)">
+    <path
+      d="M41.71 12.83A23 23 0 1 0 41.71 51.17A20 20 0 1 1 41.71 12.83Z"
+      fill="url(#moon)"
+    />
+    <circle cx="14.5" cy="25" r="1.7" fill="#CDB679" opacity=".35" />
+    <circle cx="12.5" cy="37" r="1.2" fill="#CDB679" opacity=".3" />
+    <circle cx="18" cy="45" r="1" fill="#CDB679" opacity=".3" />
+  </g>
+  <!-- stars, scattered around the moon -->
+  <path
+    transform="translate(47.4 2.4) scale(.55)"
+    fill="#FFF6C8"
+    d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z"
+  />
+  <path
+    transform="translate(54.9 25.9) scale(.34)"
+    fill="#B9D2EE"
+    d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z"
+  />
+  <path
+    transform="translate(42.4 54.9) scale(.3)"
+    fill="#7DA7D9"
+    d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z"
+  />
+  <path
+    transform="translate(5.9 5.9) scale(.26)"
+    fill="#FFF6C8"
+    d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z"
+  />
+  <path
+    transform="translate(6.1 52.1) scale(.24)"
+    fill="#B9D2EE"
+    d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z"
+  />
+  <path
+    transform="translate(21.4 2.4) scale(.22)"
+    fill="#7DA7D9"
+    d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z"
+  />
+  <path
+    transform="translate(56.4 40.4) scale(.22)"
+    fill="#FFF6C8"
+    d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z"
+  />
+  <path
+    transform="translate(44.6 21.6) scale(.2)"
+    fill="#DCEEFF"
+    d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z"
+  />
+  <circle cx="4.5" cy="20" r=".8" fill="#DCEEFF" opacity=".85" />
+  <circle cx="15" cy="4.5" r=".8" fill="#DCEEFF" opacity=".8" />
+  <circle cx="36.5" cy="3.5" r=".7" fill="#DCEEFF" opacity=".7" />
+  <circle cx="61" cy="16" r=".8" fill="#DCEEFF" opacity=".85" />
+  <circle cx="57" cy="57" r=".8" fill="#DCEEFF" opacity=".8" />
+  <circle cx="28" cy="60.5" r=".7" fill="#DCEEFF" opacity=".7" />
+</svg>
