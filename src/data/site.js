@@ -205,7 +205,7 @@ const SITE = {
     "bakeandco",
     "Truth_in_Tales",
   ],
-  projectExclusions: ["ArbiTrust"],
+  projectExclusions: ["ArbiTrust", "portfolio", "cinemaseven-portfolio"],
 
   certificates: [
     {

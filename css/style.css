@@ -1420,6 +1420,11 @@ p {
 }
 .cert-entry:nth-child(even) {
   background: var(--white);
+  border-top-color: color-mix(in srgb, var(--yellow) 75%, var(--navy));
+}
+[data-theme="dark"] .cert-entry:nth-child(even) {
+  background: var(--surface);
+  border-top-color: var(--yellow);
 }
 .cert__mark .ico {
   width: 38px;
@@ -1430,6 +1435,10 @@ p {
 .cert-entry:nth-child(even) .cert__mark .ico {
   background: var(--yellow);
   color: var(--navy);
+}
+[data-theme="dark"] .cert-entry:nth-child(odd) .cert__mark .ico {
+  background: var(--cobalt);
+  color: var(--night);
 }
 .cert__body {
   min-width: 0;
@@ -1445,6 +1454,9 @@ p {
 .cert-entry:nth-child(even) .cert__issuer {
   color: var(--navy);
 }
+[data-theme="dark"] .cert-entry:nth-child(even) .cert__issuer {
+  color: var(--cobalt);
+}
 .cert__date {
   display: block;
   margin-top: 5px;
@@ -1454,12 +1466,18 @@ p {
 .cert-entry:nth-child(even) .cert__date {
   color: var(--slate);
 }
+[data-theme="dark"] .cert-entry:nth-child(even) .cert__date {
+  color: var(--mist);
+}
 .cert-entry h3 {
   color: var(--text);
   font: 700 clamp(1rem, 1.25vw, 1.19rem) / 1.15 var(--font-heading);
 }
 .cert-entry:nth-child(even) h3 {
   color: var(--navy);
+}
+[data-theme="dark"] .cert-entry:nth-child(even) h3 {
+  color: var(--white);
 }
 .cert__verify {
   align-self: end;
@@ -1476,6 +1494,9 @@ p {
 }
 .cert-entry:nth-child(even) .cert__verify {
   color: var(--navy);
+}
+[data-theme="dark"] .cert-entry:nth-child(even) .cert__verify {
+  color: var(--white);
 }
 .cert__verify:hover {
   color: var(--accent);
