@@ -25,8 +25,9 @@ export default function About() {
             continuously improve my skills as a developer.
           </p>
           <p className="muted">
-            Outside the classroom, I enjoy exploring cafes, working on personal
-            projects, and contributing to campus organizations through event
+            Outside the classroom, I enjoy exploring cafes, taking photos of
+            the places and moments I enjoy, and contributing to campus
+            organizations through event
             planning, member coordination, and creative work. I value teamwork,
             open communication, and learning from different perspectives. As I
             move forward, I hope to gain real-world experience, strengthen my
