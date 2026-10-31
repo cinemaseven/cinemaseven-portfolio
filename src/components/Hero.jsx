@@ -65,7 +65,7 @@ export default function Hero() {
               className="hero__celestial hero__celestial--sun"
               aria-hidden="true"
             >
-              ☀
+              ☀︎
             </span>
             <span
               className="hero__celestial hero__celestial--moon"
@@ -139,16 +139,10 @@ export default function Hero() {
                 </small>
               </div>
             </div>
-            <div className="badge">
-              <svg viewBox="0 0 24 24" width="14" height="14">
-                <path
-                  d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"
-                  fill="currentColor"
-                />
-              </svg>
-              Open to
-              <br />
-              internships
+            <div className="badge" aria-hidden="true">
+              <span className="badge__orbit" />
+              <span className="badge__orb" />
+              <span className="badge__spark" />
             </div>
           </div>
         </div>

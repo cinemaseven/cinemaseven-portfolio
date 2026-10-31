@@ -1,5 +1,5 @@
 import React from "react";
-import { Chips, DataIcon } from "./Icons.jsx";
+import { DataIcon } from "./Icons.jsx";
 import S from "../data/site.js";
 
 export default function Education() {
@@ -25,12 +25,6 @@ export default function Education() {
                 <p className="muted" style={{ margin: ".2rem 0 0" }}>
                   {item.school}
                 </p>
-                {item.courses && (
-                  <>
-                    <p className="eyebrow edu__label">Relevant coursework</p>
-                    <Chips items={[...item.courses, "+ Add yours"]} />
-                  </>
-                )}
                 {item.note && (
                   <ul className="edu__note">
                     {(Array.isArray(item.note) ? item.note : [item.note]).map(

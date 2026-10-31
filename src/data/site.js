@@ -35,12 +35,6 @@ const SITE = {
       title: "Bachelor of Science in Computer Science",
       school: "Holy Angel University (HAU), Angeles City, Pampanga",
       dates: "2023 to 2027",
-      courses: [
-        "Data Structures",
-        "Algorithms",
-        "Databases",
-        "Software Engineering",
-      ],
       note: [
         "Dean's Lister (1 semester)",
         "President's Lister (6 semesters)",
