@@ -1,8 +1,3 @@
-/* =========================================================
-   EDIT YOUR CONTENT HERE. No other file needs changes for
-   projects, certificates, links, skills, education, experience.
-   All external links open in a new tab safely.
-   ========================================================= */
 const SITE = {
   name: "Francine Angela",
   email: "cinella.alejandro@gmail.com",
@@ -65,8 +60,8 @@ const SITE = {
       role: "Events Staff",
       org: "Code Geeks (CG)",
       dates: "2025 - 2026",
-      l1: "Worked with fellow members to prepare event materials and help organize the logistics before activities.",
-      l2: "Provided on-the-day support and coordination to help events run smoothly.",
+      l1: "Worked with fellow members to help prepare event materials before activities.",
+      l2: "Provided support and coordination to help events run smoothly.",
     },
     {
       initials: "LOOP",
@@ -111,6 +106,9 @@ const SITE = {
       "CSS",
       "JavaScript",
       "Python",
+      "Flask",
+      "TensorFlow/Keras",
+      "EfficientNetB0"
     ],
     pickandsip: [
       "React",
@@ -120,7 +118,7 @@ const SITE = {
       "PostgreSQL",
       "HTML",
       "CSS",
-      "JavaScript",
+      "JavaScript"
     ],
     elingkod: ["Dart", "Python", "HTML", "Flutter"],
     digifind: ["HTML", "CSS", "JavaScript"],

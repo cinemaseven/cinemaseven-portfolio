@@ -1,4 +1,5 @@
 import React from "react";
+import SectionHead from "./SectionHead.jsx";
 import { DataIcon } from "./Icons.jsx";
 import S from "../data/site.js";
 
@@ -6,12 +7,11 @@ export default function Education() {
   return (
     <section className="sec sec--alt" id="education">
       <div className="wrap">
-        <div className="sec__head reveal">
-          <div>
-            <p className="eyebrow eyebrow--spark">02</p>
-            <h2>Education</h2>
-          </div>
-        </div>
+        <SectionHead
+          num="02"
+          title="Education"
+          aside="My academic path, with honors and scholarships earned along the way."
+        />
         <div className="stack-list">
           {(S.education || []).map((item, i) => (
             <article

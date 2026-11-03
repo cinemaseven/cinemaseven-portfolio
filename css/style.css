@@ -1309,16 +1309,14 @@ p {
   gap: 14px 18px;
 }
 #projects .grid--3 {
-  grid-template-rows: 640px;
-  min-height: 640px;
+  grid-template-rows: 700px;
 }
 #projects .card--proj {
-  height: 640px;
+  height: 700px;
   min-height: 0;
 }
 .card--proj h3,
-.proj__roles,
-.card--proj .proj__description {
+.proj__roles {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -1330,7 +1328,8 @@ p {
   -webkit-line-clamp: 2;
 }
 .card--proj .proj__description {
-  -webkit-line-clamp: 5;
+  display: block;
+  overflow: visible;
 }
 .project-controls {
   display: flex;
@@ -1668,11 +1667,10 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
   #projects .grid--3 {
-    grid-template-rows: repeat(2, 660px);
-    min-height: calc(2 * 660px + 24px);
+    grid-template-rows: repeat(2, 700px);
   }
   #projects .card--proj {
-    height: 660px;
+    height: 700px;
   }
   .nav__links {
     gap: 18px;
@@ -1742,20 +1740,16 @@ p {
     grid-template-columns: 1fr;
   }
   #projects .grid--3 {
-    grid-template-rows: repeat(3, 600px);
-    min-height: calc(3 * 600px + 48px);
+    grid-template-rows: repeat(3, 680px);
     gap: 24px;
   }
   #projects .card--proj {
-    height: 600px;
+    height: 680px;
   }
   #projects .proj__art {
     height: clamp(220px, 36vw, 280px);
     aspect-ratio: auto;
     flex: none;
-  }
-  #projects .card--proj .proj__description {
-    -webkit-line-clamp: 4;
   }
   .card--proj {
     padding: 0;
@@ -2176,12 +2170,11 @@ p {
     gap: 12px;
   }
   #projects .grid--3 {
-    grid-template-rows: 560px;
-    min-height: 560px;
+    grid-template-rows: 680px;
     gap: 14px;
   }
   #projects .card--proj {
-    height: 560px;
+    height: 680px;
   }
   #projects .proj__art {
     height: 220px;
