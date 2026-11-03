@@ -1,4 +1,4 @@
-# Francine Angela | Portfolio
+# Francine Angela (Ella) | Portfolio
 
 **Live Site:** https://cinemaseven.github.io/cinemaseven-portfolio/
 
